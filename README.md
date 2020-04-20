@@ -25,7 +25,7 @@ A web application built using [Flask](https://flask.palletsprojects.com/en/1.1.x
 
 Flairs are nothing but the different categories a Reddit post in a particular subreddit is classified into. Only the title of the given post is used for prediction. The final **Multichannel Concolutional Neural Network** achieves a test accuracy of **~93%**.
 
-The web app is deployed on Heroku at: 
+The web app is deployed on Heroku at: https://reddit-flair-detection-app.herokuapp.com/
 
 ## Local Installation
 

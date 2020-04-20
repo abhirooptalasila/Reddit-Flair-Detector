@@ -5,11 +5,14 @@ import praw
 import string
 import tensorflow as tf
 import os
-import itertools 
+import itertools
+import nltk
 from tensorflow.keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
 from nltk.corpus import stopwords
 from tensorflow.keras.backend import set_session
+
+nltk.download('stopwords')
 
 sess = tf.Session()
 graph = tf.get_default_graph()
@@ -108,4 +111,4 @@ def automated():
 
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True, threaded=True)
+    app.run(debug=True, threaded=True, port=5000)
