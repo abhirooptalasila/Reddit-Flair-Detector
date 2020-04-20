@@ -34,7 +34,7 @@ The web app is deployed on Heroku at: https://reddit-flair-detection-app.herokua
 Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/abhirooptalasila/Reddit-Flair-Detector.git
 cd Reddit-Flair-Detector/
 ```
 
