@@ -23,7 +23,7 @@ app = Flask(__name__)
 dict = {8:"Scheduled", 7:"Politics",5:"Photography",6:"Policy/Economy",3:"Food", 2:"Coronavirus",1:"Business/Finance",4:"Non-Political",9:"Science/Technology",10:"Sports",0:"AskIndia"}
 
 
-reddit = praw.Reddit(client_id='wJgNcO68RMNFbw', client_secret='MlVciTgnPvtTODltLPSM4FBxSfY', user_agent='new scrapper')
+reddit = praw.Reddit(client_id='#', client_secret='#', user_agent='#')
 
 model = load_model("../models/model.h5")
 

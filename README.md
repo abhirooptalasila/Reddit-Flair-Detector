@@ -27,6 +27,8 @@ Flairs are nothing but the different categories a Reddit post in a particular su
 
 The web app is deployed on Heroku at: https://reddit-flair-detection-app.herokuapp.com/
 
+NOTE: The web app will take some time to load as Heroku doesn't keep free web apps running all the time. The server is started freshly every time someone visits it. So please give it some time to load :)
+
 ## Local Installation
 
 **Note:** My installation is specific to Python 3.7 and TF 1.14
